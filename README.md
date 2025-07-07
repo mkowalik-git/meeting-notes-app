@@ -20,7 +20,7 @@ Paste your notes, pick your favorite AI model (including free options!), and get
 ### 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/meeting-notes-app.git
+git clone https://github.com/mkowalik-git/meeting-notes-app.git
 cd meeting-notes-app
 ```
 
