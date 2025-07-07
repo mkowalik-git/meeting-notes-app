@@ -4,6 +4,7 @@
 Paste your notes, pick your favorite AI model (including free options!), and get a beautiful, organized summary in seconds.
 
 ---
+![image](https://github.com/user-attachments/assets/0256c552-f55f-4979-99ff-66b818da3d1d)
 
 ## ✨ Features
 
