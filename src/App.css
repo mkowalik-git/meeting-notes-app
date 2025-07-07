@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #C74634;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app-bg {
+  min-height: 100vh;
+  background: #C74634;
+  font-family: 'Inter', sans-serif;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  max-width: 700px;
+  margin: 1.5rem auto;
+  padding: 2rem;
+  box-shadow: 0 4px 24px rgba(49, 45, 42, 0.08);
+}
+
+.settings-btn, .summarize-btn {
+  background: #312D2A;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 100%;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.settings-btn {
+  margin-bottom: 1rem;
+}
+
+.settings-btn:hover, .summarize-btn:hover {
+  background: #4a423c;
+  transform: scale(1.02);
+}
+
+textarea {
+  width: 100%;
+  min-height: 180px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 1rem;
+  resize: vertical;
+  color: #312D2A;
+  background: #f8f6f5;
+}
+
+textarea:focus {
+  outline: 2px solid #C74634;
+  border-color: #C74634;
+}
+
+.summary-output {
+  background: #f8f6f5;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: #312D2A;
+  line-height: 1.6;
+  box-shadow: 0 2px 12px rgba(49, 45, 42, 0.06);
+}
+
+input[type="password"], input[type="text"] {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  background: #f8f6f5;
+  color: #312D2A;
+}
+
+input:focus {
+  outline: 2px solid #C74634;
+  border-color: #C74634;
+}
+
+label {
+  font-weight: 500;
+  color: #312D2A;
+}
+
+/* Remove legacy styles */
+.App-logo, .App-header, .App-link {
+  display: none;
+}
+
+/* Error and info messages */
+.error-message {
+  background: #ffeaea;
+  color: #C74634;
+  border: 1px solid #f5c6cb;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+  .card {
+    max-width: 98vw;
+    padding: 1rem;
+  }
+  .summary-output {
+    padding: 1rem;
+  }
+}
